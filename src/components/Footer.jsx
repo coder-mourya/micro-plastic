@@ -20,7 +20,8 @@ const Footer = () => {
           <p>© 2025 MicroTrack. All right reserved</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to={"/terms"} className="hover:text-white transition-colors">Terms of service</Link>
-            <Link to={"/terms"} className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to={"/privacy"} className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link to={"/contact"} className="hover:text-white transition-colors">Contact us</Link>
           </div>
         </div>
       </div>

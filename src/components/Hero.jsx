@@ -4,7 +4,7 @@ import girl from '../assets/girl.png';
 
 const Hero = () => {
   return (
-    <section id="home" className="h-52 lg:min-h-screen flex overflow-hidden">
+    <section id="home" className="h-auto lg:min-h-screen flex overflow-hidden">
 
       {/* Left Side */}
       <div className="w-3/5 bg-[#1648EB]  justify-center p-8 lg:p-16 text-white">

@@ -9,7 +9,7 @@ const FeatureCards = () => {
       image: img1
     },
     {
-      title: "Microplastic Source Identification", 
+      title: "Microplastic Source Identification",
       description: "Identifying sources to prevent pollution at the root",
       image: img2
     },
@@ -25,13 +25,13 @@ const FeatureCards = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white  shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group"
             >
               <div className=" overflow-hidden">
-                <img 
-                  src={feature.image} 
+                <img
+                  src={feature.image}
                   alt={feature.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

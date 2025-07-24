@@ -10,6 +10,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import TermsAndCondition from './pages/TermsAndCondition';
 import ScrollToTop from './components/ScrollToTop';
+import Privacy from './pages/Privicy';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
               <Services />
               <FAQ />
               <Testimonials />
-              <Contact />
+              {/* <Contact /> */}
               <Footer />
             </div>
           }
@@ -40,6 +42,28 @@ function App() {
           element={
             <>
               <TermsAndCondition />
+              <Footer />
+            </>
+          }
+        />
+
+        {/* Privacy Policy Page */}
+        <Route
+          path="/privacy"
+          element={
+            <>
+              <Privacy />
+              <Footer />
+            </>
+          }
+        />
+
+        {/* Contact Us Page */}
+        <Route
+          path="/contact"
+          element={
+            <>
+              <ContactUs />
               <Footer />
             </>
           }
